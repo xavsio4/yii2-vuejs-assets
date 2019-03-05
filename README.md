@@ -15,13 +15,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require xavsio4/yii2-vuejs-assets "*"
+composer require xavsio4/yii2-vuejs-assets "dev-master"
 ```
 
 or add
 
 ```
-"xavsio4/yii2-vuejs-assets": "*"
+"xavsio4/yii2-vuejs-assets": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
@@ -33,11 +33,11 @@ Usage
 You may utilize a bundle of assets (vue, axios, router, veeValidate) by using this code in your view :
 
 ```php
- \xavsio4\vuejs-assets\VueBundleAsset::register($this); 
+ \xavsio4\yii2-vuejs-assets\VueBundleAsset::register($this); 
 ```
 
 If you want to utilize only Vue, use this code in your view :
 
 ```php
- \xavsio4\vuejs-assets\VueAsset::register($this); 
+ \xavsio4\yii2-vuejs-assets\VueAsset::register($this); 
 ```

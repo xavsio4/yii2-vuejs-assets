@@ -6,7 +6,7 @@ use yii\web\AssetBundle;
 /**
  * Class VueAsset
  *
- * @package xavsio4\vuejsAssets;
+ * @package xavsio4\vuejs_assets;
  */
 class VueAsset extends AssetBundle
 {

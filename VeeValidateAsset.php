@@ -6,7 +6,7 @@ use yii\web\AssetBundle;
 /**
  * Class VeeValidateAsset
  *
- * @package xavsio4\vuejsAssets;
+ * @package xavsio4\vuejs_assets;
  */
 class VeeValidateAsset extends AssetBundle
 {

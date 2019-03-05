@@ -7,14 +7,14 @@ use yii\web\View;
 /**
  * Class VueBundleAsset
  *
- * @package xavsio4\vuejsAssets;
+ * @package xavsio4\vuejs_assets;
  */
 class VueBundleAsset extends AssetBundle
 {
     public $depends = [
-        'xavsio4\vuejsAssets;\VueAsset',
-        'xavsio4\vuejsAssets;\AxiosAsset',
-        'xavsio4\vuejsAssets;\VueRouterAsset',
-        'xavsio4\vuejsAssets;\VuexAsset',
+        'xavsio4\vuejs_assets;\VueAsset',
+        'xavsio4\vuejs_assets;\AxiosAsset',
+        'xavsio4\vuejs_assets;\VueRouterAsset',
+        'xavsio4\vuejs_assets;\VuexAsset',
     ];
 }

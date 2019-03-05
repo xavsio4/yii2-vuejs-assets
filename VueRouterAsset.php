@@ -6,7 +6,7 @@ use yii\web\AssetBundle;
 /**
  * Class VueRouterAsset
  *
- * @package xavsio4\vuejsAssets;
+ * @package xavsio4\vuejs_assets;
  */
 class VueRouterAsset extends AssetBundle
 {
