@@ -1,5 +1,5 @@
 <?php
-namespace xavsio4\vuejsAssets;;
+namespace xavsio4\vuejs_assets;
 
 use yii\web\AssetBundle;
 use yii\web\View;

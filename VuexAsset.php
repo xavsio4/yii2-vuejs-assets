@@ -1,12 +1,12 @@
 <?php
-namespace xavsio4\vuejsAssets;;
+namespace xavsio4\vuejs_assets;
 
 use yii\web\AssetBundle;
 
 /**
  * Class VuexAsset
  *
- * @package xavsio4\vuejsAssets;
+ * @package xavsio4\vuejs_assets;
  */
 class VuexAsset extends AssetBundle
 {

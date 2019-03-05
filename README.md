@@ -33,11 +33,11 @@ Usage
 You may utilize a bundle of assets (vue, axios, router, veeValidate) by using this code in your view :
 
 ```php
- \xavsio4\vuejsAssets;\VueBundleAsset::register($this); 
+ \xavsio4\vuejs-assets\VueBundleAsset::register($this); 
 ```
 
 If you want to utilize only Vue, use this code in your view :
 
 ```php
- \xavsio4\vuejsAssets;\VueAsset::register($this); 
+ \xavsio4\vuejs-assets\VueAsset::register($this); 
 ```
