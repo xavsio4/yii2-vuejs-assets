@@ -12,9 +12,9 @@ use yii\web\View;
 class VueBundleAsset extends AssetBundle
 {
     public $depends = [
-        'xavsio4\vuejs_assets;\VueAsset',
-        'xavsio4\vuejs_assets;\AxiosAsset',
-        'xavsio4\vuejs_assets;\VueRouterAsset',
-        'xavsio4\vuejs_assets;\VuexAsset',
+        'xavsio4\vuejs_assets\VueAsset',
+        'xavsio4\vuejs_assets\AxiosAsset',
+        'xavsio4\vuejs_assets\VueRouterAsset',
+        'xavsio4\vuejs_assets\VuexAsset',
     ];
 }
